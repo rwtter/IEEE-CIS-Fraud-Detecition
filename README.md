@@ -4,7 +4,7 @@
 
 2.项目概述
 
-本项目基于 IEEE-CIS Fraud Detection 数据集，构建了一个完整的信用卡欺诈检测系统，包含两条核心链路：
+本项目基于 IEEE-CIS Fraud Detection 数据集（可于kaggle官方网站下载该数据集，本实验采用阿里云镜像网站，下载链接为https://tianchi.aliyun.com/dataset/87814），构建了一个完整的信用卡欺诈检测系统，包含两条核心链路：
 
 2.1 离线建模流水线
 从原始 CSV 数据出发，通过数据清洗、特征工程、模型训练、随机搜索调参、成本敏感学习等步骤，自动生成可用于线上部署的欺诈检测模型。
@@ -178,5 +178,6 @@ pip install -r requirements.txt
 在项目根目录执行：
 
 python run_all.py
+
 
 该指令将自动顺序运行 scripts/01 到 scripts/35。
