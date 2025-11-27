@@ -1,0 +1,2 @@
+model,auc,accuracy,precision,recall,f1,params
+LightGBM_tuned,0.985627576012691,0.9610356622752058,0.4704771496915523,0.9041858214372127,0.6189135475322954,"{'n_estimators': 500, 'learning_rate': 0.05, 'num_leaves': 64, 'min_child_samples': 20, 'subsample': 0.8, 'colsample_bytree': 0.8, 'objective': 'binary', 'class_weight': 'balanced', 'n_jobs': -1, 'random_state': 42}"
