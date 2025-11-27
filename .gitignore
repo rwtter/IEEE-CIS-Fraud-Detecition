@@ -1,0 +1,24 @@
+# raw data and large files
+data_raw/
+data_stage/
+features/
+models/
+results/
+
+# cache / temp
+__pycache__/
+*.pkl
+*.npy
+*.csv
+*.tsv
+*.log
+*.tmp
+*.json
+
+# notebook checkpoints
+.ipynb_checkpoints/
+
+# system files
+.DS_Store
+.vscode/
+.idea/
