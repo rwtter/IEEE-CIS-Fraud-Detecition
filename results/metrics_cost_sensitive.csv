@@ -1,2 +1,0 @@
-iter,auc,accuracy,precision,recall,f1,cost,tn,fp,fn,tp,params
-2,0.985253505839798,0.9594100314965963,0.459333087240064,0.9032180014517299,0.6089722675367047,6394.0,109581,4394,400,3733,"{'n_estimators': 598, 'learning_rate': 0.05, 'num_leaves': 71, 'min_child_samples': 197, 'max_depth': 10, 'subsample': 0.9830581307550784, 'colsample_bytree': 0.8527449669862046, 'reg_alpha': 0.9989390789378038, 'reg_lambda': 0.6845310256427296, 'min_split_gain': 0.2713289968859072, 'objective': 'binary', 'class_weight': 'balanced', 'n_jobs': -1, 'random_state': 42}"
