@@ -1,0 +1,30 @@
+DeviceType_norm value_counts:
+DeviceType_norm
+missing    449730
+desktop     85165
+mobile      55645
+Name: count, dtype: int64
+
+DeviceInfo_brand top20:
+DeviceInfo_brand
+missing      471874
+windows       47775
+apple         19783
+apple_mac     12573
+trident        7440
+moto           2743
+samsung        2302
+rv:11.0        1901
+rv:57.0         962
+huawei          719
+sm-j700m        654
+sm-g610m        511
+blade           479
+sm-g531h        410
+sm-g955u        387
+htc             383
+sm-g950u        364
+rv:59.0         362
+sm-g935f        353
+sm-g532m        316
+Name: count, dtype: int64

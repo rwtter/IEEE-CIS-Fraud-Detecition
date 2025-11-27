@@ -1,0 +1,28 @@
+P_emaildomain_provider value_counts (top 20):
+P_emaildomain_provider
+gmail        228355
+other        207783
+yahoo        101015
+microsoft     53387
+Name: count, dtype: int64
+
+R_emaildomain_provider value_counts (top 20):
+R_emaildomain_provider
+other        490638
+gmail         57147
+microsoft     30778
+yahoo         11914
+edu              63
+Name: count, dtype: int64
+
+email_same_domain 分布:
+email_same_domain
+0    404644
+1    185896
+Name: count, dtype: int64
+
+email_same_provider 分布:
+email_same_provider
+0    319251
+1    271289
+Name: count, dtype: int64

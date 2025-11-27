@@ -1,0 +1,68 @@
+=== 与目标正相关最高的前 30 个特征 ===
+fr_card1_addr1                0.476540
+fr_card1_Pemailprov           0.428173
+V257                          0.280214
+V246                          0.268090
+V244                          0.265712
+V242                          0.263476
+V201                          0.246462
+V200                          0.238290
+V45                           0.235436
+V189                          0.225829
+V86                           0.222343
+V87                           0.221568
+V258                          0.220304
+V188                          0.219590
+V44                           0.217870
+V228                          0.207138
+V170                          0.203019
+V52                           0.195492
+R_emaildomain__te             0.182915
+R_emaildomain_norm__te        0.182915
+V171                          0.182390
+V199                          0.182031
+V51                           0.182007
+V230                          0.179935
+V40                           0.174672
+id_35__te                     0.170579
+R_emaildomain_provider__te    0.168993
+ProductCD__te                 0.168376
+V79                           0.167299
+V39                           0.166640
+Name: isFraud, dtype: float64
+
+=== 与目标负相关最高的前 30 个特征 ===
+M1__freq                       -0.089025
+M6__freq                       -0.089222
+V48                            -0.091582
+V30                            -0.098517
+V91                            -0.098592
+card6__freq                    -0.098874
+V70                            -0.099106
+V69                            -0.102396
+V90                            -0.102635
+V29                            -0.102738
+DeviceInfo_brand__freq         -0.103878
+DeviceInfo__freq               -0.103928
+M4__freq                       -0.107633
+id_01                          -0.123101
+id_16__freq                    -0.125011
+ProductCD__freq                -0.130294
+id_12__freq                    -0.130982
+id_36__freq                    -0.132690
+id_37__freq                    -0.133211
+id_28__freq                    -0.134686
+id_29__freq                    -0.134909
+R_emaildomain__freq            -0.135112
+R_emaildomain_norm__freq       -0.135112
+id_38__freq                    -0.135411
+id_15__freq                    -0.135624
+id_31__freq                    -0.136127
+DeviceType_norm__freq          -0.137845
+DeviceType__freq               -0.137845
+id_35__freq                    -0.138184
+R_emaildomain_provider__freq   -0.157884
+Name: isFraud, dtype: float64
+
+=== 绝对相关系数大于 0.9 的潜在泄露特征（如有） ===
+无 |corr| > 0.9 的特征。
